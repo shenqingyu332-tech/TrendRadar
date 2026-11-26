@@ -17,7 +17,7 @@ app:
   #   - America/New_York (美东时间 UTC-5/-4)
   #   - Europe/London (伦敦时间 UTC+0/+1)
   # 完整时区列表: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-  timezone: "Asia/Shanghai"
+  timezone: "America/Los_Angeles"
   show_version_update: true           # 是否显示版本更新提示（true=显示, false=隐藏）
 
 
@@ -111,7 +111,7 @@ platforms:
 # max_age_days: 可选，覆盖全局 freshness_filter.max_age_days
 # ===============================================================
 rss:
-  enabled: true                       # 是否启用 RSS 抓取（true=启用, false=关闭）
+  enabled: false                       # 是否启用 RSS 抓取（true=启用, false=关闭）
 
   # 文章新鲜度过滤（过滤超龄旧文章，避免重复推送）
   # 仅在推送阶段过滤，所有文章仍会存入数据库
